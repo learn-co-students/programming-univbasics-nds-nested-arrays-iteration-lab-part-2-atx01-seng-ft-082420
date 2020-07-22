@@ -41,6 +41,7 @@ while row_index < src.count do
   the_lows.push(lowest_daily_temperature)
   
   row_index += 1
+  # Our inner loop may have finished, but, now, our outer loop will iterate once more, causing our inner loop to iterate over the new array being passed to it, unless, of course, we have been around this mulberry bush enough times for the condition to evaluate to false.
   
   
 end
